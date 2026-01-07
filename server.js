@@ -25,10 +25,10 @@ const MODEL_MAPPING = {
   'gpt-3.5-turbo': 'deepseek-ai/DeepSeek-V3.2-Exp',
   'gpt-4': 'moonshotai/kimi-k2-thinking',
   'gpt-4-turbo': 'moonshotai/kimi-k2-instruct-0905',
-  'gpt-4o': 'deepseek-ai/DeepSeek-V3.2-Speciale',
+  'gpt-4o': 'RedHatAI-DeepSeek-CoderV2',
   'claude-3-opus': 'deepseek-ai/deepseek-v3.2',
   'claude-3-sonnet': 'deepseek-ai/deepseek-r1-0528',
-  'gemini-pro': 'deepseek-ai/DeepSeek-Coder-V2-Instruct' 
+  'gemini-pro': 'deepseek-ai/DeepSeek-V2-Lite-Chat' 
 };
 
 // Health check endpoint
