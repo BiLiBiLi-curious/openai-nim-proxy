@@ -15,17 +15,17 @@ const NIM_API_BASE = process.env.NIM_API_BASE || 'https://integrate.api.nvidia.c
 const NIM_API_KEY = process.env.NIM_API_KEY;
 
 // 🔥 REASONING DISPLAY TOGGLE - Shows/hides reasoning in output
-const SHOW_REASONING = false; // Set to true to show reasoning with <think> tags
+const SHOW_REASONING = true; // Set to true to show reasoning with <think> tags
 
 // 🔥 THINKING MODE TOGGLE - Enables thinking for specific models that support it
-const ENABLE_THINKING_MODE = false; // Set to true to enable chat_template_kwargs thinking parameter
+const ENABLE_THINKING_MODE = true; // Set to true to enable chat_template_kwargs thinking parameter
 
 // Model mapping (adjust based on available NIM models)
 const MODEL_MAPPING = {
   'gpt-3.5-turbo': 'moonshotai/kimi-k2.6',
   'gpt-4': 'nvidia/nemotron-3-ultra-550b-a55b',
   'gpt-4-turbo': 'moonshotai/kimi-k2.7-code',
-  'gpt-4o': 'z-ai/glm-5.1',
+  'gpt-4o': 'z-ai/glm-5.2',
   'claude-3-opus': 'deepseek-ai/deepseek-v4-pro',
   'claude-3-sonnet': 'deepseek-ai/deepseek-v4-flash',
   'gemini-pro': 'moonshotai/kimi-k2-thinking' 
