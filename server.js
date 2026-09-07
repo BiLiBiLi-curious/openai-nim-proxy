@@ -23,12 +23,12 @@ const ENABLE_THINKING_MODE = false; // Set to true to enable chat_template_kwarg
 // Model mapping (adjust based on available NIM models)
 const MODEL_MAPPING = {
   'gpt-3.5-turbo': 'moonshotai/kimi-k3',
-  'gpt-4': 'zai-org/GLM-5.3',
+  'gpt-4': 'nvidia/nemotron-3-ultra-550b-a55b',
   'gpt-4-turbo': 'minimaxai/minimax-m3',
   'gpt-4o': 'z-ai/glm-5.3',
   'claude-3-opus': 'deepseek-ai/deepseek-v4-pro-0813',
   'claude-3-sonnet': 'deepseek-ai/deepseek-v4-flash-0731',
-  'gemini-pro': 'moonshotai/kimi-k2.7-code' 
+  'gemini-pro': 'nvidia/nemotron-3.5-lightning-30b-a3b' 
 };
 
 // Health check endpoint
@@ -96,7 +96,7 @@ app.post('/v1/chat/completions', async (req, res) => {
       model: nimModel,
       messages: messages,
       temperature: temperature || 0.6,
-      max_tokens: max_tokens || 4512,
+      max_tokens: max_tokens || 9024,
       extra_body: ENABLE_THINKING_MODE ? { chat_template_kwargs: { thinking: true } } : undefined,
       stream: stream || false
     };
