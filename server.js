@@ -25,10 +25,10 @@ const MODEL_MAPPING = {
   'gpt-3.5-turbo': 'moonshotai/kimi-k3',
   'gpt-4': 'z-ai/glm-5.3',
   'gpt-4-turbo': 'deepseek-ai/deepseek-v4-flash-0731',
-  'gpt-4o': 'nvidia/nemotron-3-ultra-550b-a55b',
+  'gpt-4o': 'z-ai/glm-5.3-flash',
   'claude-3-opus': 'deepseek-ai/deepseek-v4-pro-0813',
   'claude-3-sonnet': 'deepseek-ai/deepseek-v4.1-flash',
-  'gemini-pro': 'z-ai/glm-5.3-flash' 
+  'gemini-pro': 'nvidia/nemotron-3-ultra-550b-a55b' 
 };
 
 // Health check endpoint
