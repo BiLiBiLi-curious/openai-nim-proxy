@@ -27,7 +27,7 @@ const MODEL_MAPPING = {
   'gpt-4-turbo': 'google/gemma-4-31b-it',
   'gpt-4o': 'z-ai/glm-5.3',
   'claude-3-opus': 'deepseek-ai/deepseek-v4.1-flash',
-  'claude-3-sonnet': 'meta/muse-glimmer-30b',
+  'claude-3-sonnet': 'z-ai/glm-5.3-flash',
   'gemini-pro': 'nvidia/nemotron-3.5-lightning-30b-a3b' 
 };
 
