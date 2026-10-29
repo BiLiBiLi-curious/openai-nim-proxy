@@ -28,7 +28,7 @@ const MODEL_MAPPING = {
   'gpt-4o': 'z-ai/glm-5.3',
   'claude-3-opus': 'deepseek-ai/deepseek-v4.1-flash',
   'claude-3-sonnet': 'z-ai/glm-5.3-flash',
-  'gemini-pro': 'nvidia/nemotron-3.5-lightning-30b-a3b' 
+  'gemini-pro': 'mistralai/mistral-large-4-1t-a52b' 
 };
 
 // Health check endpoint
